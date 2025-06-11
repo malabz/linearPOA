@@ -1,0 +1,12 @@
+[submodule "staccato"]
+	path = include/threadpool
+	url = git@github.com:malabz/staccato.git
+[submodule "include/getopt9"]
+	path = include/getopt9
+	url = git@github.com:wym6912/getopt9.git
+[submodule "include/boost_cpp_int"]
+	path = include/boost
+	url = git@github.com:wym6912/boost_cpp_int.git
+[submodule "include/kseq"]
+	path = include/kseq
+	url = git@github.com:malabz/kseq.git
