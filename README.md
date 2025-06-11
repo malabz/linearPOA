@@ -32,10 +32,27 @@ Example:
         ./linearpoa --in seq.fasta --out seq_out.fasta
 ```
 
-
 ## Test dataset and compiled program
 
 The test dataset and compiled program are stored at [`https://doi.org/10.5281/zenodo.15637837`](https://zenodo.org/uploads/15637837). You can use the data for testing the program.
+
+### Similarity between generated sequence and reference sequence
+
+We use the `error_measure` program provided by [FORAlign](https://github.com/malabz/FORAlign) to measure the similarity between generated sequence and reference sequence.
+
+Additionally, we modified some programs for comparing our programs. These modifications are shown as follows:
+
+### Modified TSTA
+
+We modified TSTA for better controlling output rules. This repositoty is stored [here](https://github.com/malabz/TSTA).
+
+### Modified PBSIM2
+
+We modified PBSIM2 for generating simulated datasets, which only generate positive strand sequences. This repository is stored [here](https://github.com/malabz/pbsim2).
+
+### Modified Racon
+
+We modified Racon for calling POA methods for genereating consensus sequence, with ignoring window information provided by Racon. This repository is stored [here](https://github.com/malabz/racon-with-simple-window).
 
 ## Citation
 
